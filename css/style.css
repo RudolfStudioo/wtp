@@ -1,0 +1,33 @@
+/* Custom styles for Smart Water Meter - Vanilla version */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tab-button.active {
+  border-color: #0284c7;
+  color: #0369a1;
+}
+
+.tab-content {
+  display: block;
+}
+
+.tab-content.hidden {
+  display: none;
+}
+
+.quick-nominal.active {
+  background-color: #0284c7;
+  color: white;
+  border-color: #0284c7;
+}
+
+#payment-message {
+  display: block;
+}
+
+#payment-message.hidden {
+  display: none;
+}

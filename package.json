@@ -1,0 +1,19 @@
+{
+  "name": "vanila-web",
+  "version": "1.0.0",
+  "description": "Versi vanilla HTML, CSS, dan JavaScript dari aplikasi Smart Water Meter.",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "midtrans-client": "^1.4.3"
+  }
+}
